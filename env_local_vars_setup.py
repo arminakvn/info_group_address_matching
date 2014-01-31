@@ -1,0 +1,17 @@
+MA_parcels_location = "E:\Active\IG_EMP_address_matching\IG_EMP_adrs_match.gdb"
+muni_level3_tables_location = "E:\Active\TregionalParcels\L3aLL"
+info_group_locations = 'E:\Active\IG_EMP_address_matching\IG_EMP_adrs_match.gdb'
+myWorkdirectory = 'E:\Active\IG_EMP_address_matching\IG_EMP_adrs_match.gdb'
+info_group_featureclass = 'IG_EMP_0413_CorrectedZipCtroid'
+info_address_field = ['ADDRESS']
+info_muni_id_field = ['Muni_ID']
+info_id_field = ['ID']
+info_zip_field = ['ZIP']
+parcels_featureclass = 'Parcels_L3E'
+parcels_address_street_field = ['addr_str']
+parcels_address_full_field = ['site_addr']
+parcels_address_number_field = ['addr_num']
+parcels_address_zip_field = ['addr_zip']
+parcels_muni_id_field = ['muni_id']
+parcels_mapc_id_field = ['mapc_id']
+munis_no_info_match = [252,166,119,30,299,291,184,264,79,81,158,270,157,142,189,50,244,133,238,208,187,177,269,78,303]
