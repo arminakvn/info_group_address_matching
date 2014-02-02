@@ -9,4 +9,6 @@ class event:
     parcel_street_address = [] # parcel street address string
     parcel_house_number   = [] # parcel house number
     parcel_zip            = [] # parcel info group zip code
-    parcel_mapcid         = [] # parcel's mapc_id   
+    parcel_mapcid         = [] # parcel's mapc_id
+    match_hn_lratio       = [] # levenshtein ration between the house numbers that mathched
+    match_sn_lratio       = [] # levenshtein ration between the street names that matched
