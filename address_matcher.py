@@ -75,12 +75,10 @@ def info_parcel_address_matcher(muni_id):
                 #    print "match found based on range of house numbers", "parcel house number: ", u_s_parcel_house_number, " and info gr house number: ", u_s_info_house_number
                 #    print "updating the csv..."
                 #    write_to_csv(address_match_dict, r'E:\SkyDrive\_code\info_group_address_matching\address_match.csv')
-from clear_memory import *                
+             
 for muni_id in munis_no_info_match:
     try:
         info_parcel_address_matcher(muni_id)
-	
-	clearall()
+
     except:
-        clearall()
         pass
